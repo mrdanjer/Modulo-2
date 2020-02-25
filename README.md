@@ -1,2 +1,2 @@
-# M-dulo-2
+# Modulo-2
 Repositorios Módulo 2
