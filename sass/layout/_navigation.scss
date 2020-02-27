@@ -1,0 +1,29 @@
+@import "../abstracts/variables";
+
+body {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.navbar {
+    background-color: $Eerie-black;
+}
+
+#navbarSupportedContent {
+    text-align: right;
+}
+
+.nav-link {
+    color: $white;
+}
+
+.sr-only {
+    color: $Fuzzy-Wuzzy;
+}
+
+.img-fluid {
+    width: 55%;
+    margin-left: 2rem;
+}

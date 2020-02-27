@@ -1,0 +1,29 @@
+body {
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.navbar {
+  background-color: #121619;
+}
+
+#navbarSupportedContent {
+  text-align: right;
+}
+
+.nav-link {
+  color: #FFF;
+}
+
+.sr-only {
+  color: #e56353;
+}
+
+.img-fluid {
+  width: 55%;
+  margin-left: 2rem;
+}
+
+/*# sourceMappingURL=main.css.map */
