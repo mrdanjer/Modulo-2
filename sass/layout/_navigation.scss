@@ -7,7 +7,8 @@ body {
     box-sizing: border-box;
 }
 
-.navbar {
+.navbar,
+#fila-2-footer {
     background-color: $Eerie-black;
 }
 
@@ -23,7 +24,40 @@ body {
     color: $Fuzzy-Wuzzy;
 }
 
-.img-fluid {
-    width: 55%;
+.navbar-brand img {
+    width: 120px;
     margin-left: 2rem;
+}
+
+.img-principal {
+    background-image: url("../images/post-image.jpg");
+    text-align: center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+}
+
+footer {
+    border-color: $light-gray;
+    padding: 0;
+}
+
+#fila-1-footer,
+#fila-2-footer {
+    display: -webkit-flex;
+}
+
+#fila-1-footer {
+    margin-top: 1em;
+    margin-bottom: 1em;
+    background-color: $platinum;
+}
+
+#fila-2-footer {
+    margin-top: 3em;
+    margin-bottom: 3em;
+}
+
+.img-fluid-1 {
+    width: 100px;
 }
