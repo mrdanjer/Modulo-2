@@ -15,12 +15,11 @@
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
         integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
         crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="sass/main.css">
+    <link rel="stylesheet" href="../Modulo-2/sass/main.css">
 </head>
 
 <body>
     <nav class="navbar navbar-expand-lg navbar-dark sticky-top">
-        <!-- <div class="container-fluid"> -->
         <a class="navbar-brand col-3 col-md-2" href="#">
             <img src="../assets/images/logo.png" class=img-fluid alt="responsive-image">
         </a>
@@ -50,56 +49,46 @@
         <!-- </div> -->
     </nav>
     <header class="header">
-        <div class="img-principal">
-            <img src="../assets/images/post-image.jpg" alt="" class="logo_image">
+        <div class="container-fluid">
+            <div class="img-principal">
+                <h1>5 formas de cuidar<br>tu corte de cabello</h1>
+            </div>
         </div>
-
     </header>
     <main class="main">
         <div class="main__container">
-            <h1 class="main__title">Disfruta de los paisajes de
+            <p class="main__title">Disfruta de los paisajes de
                 <span class="main__title-emphasis main__title-emphasis_size-xxl">
                     Chile
                 </span>
-            </h1>
-            <div class="main__button">
-                <button type="button" class="button button_positive">Más
-                    destinos</button>
-            </div>
+            </p>
+
         </div>
     </main>
-    <form class="form">
-        <div class="form__container">
-            <label class="form__label">Lugar u hotel</label>
-            <input class="form__input-text" type="text" placeholder="Escribe tu
-        destino">
+
+    <footer>
+        <div class="container fluid col-12">
+            <div class="row" id="fila-1-footer">
+                <ul class="pagination justify-content-center">
+                    <li class="page-item">
+                        <a class="page-link" href="#">Anterior</a>
+                    </li>
+                    <li class="page-item"><a class="page-link" href="#">1</a></li>
+                    <li class="page-item"><a class="page-link" href="#">2</a></li>
+                    <li class="page-item"><a class="page-link" href="#">3</a></li>
+                    <li class="page-item">
+                        <a class="page-link" href="#">Siguiente</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="row" id="fila-2-footer">
+                <div class="img-final">
+                    <img src="../assets/images/logo.png" class=img-fluid-1 alt="responsive-image">
+                </div>
+            </div>
         </div>
-        <div class="form__container">
-            <label class="form__label">Fecha de llegada</label>
-            <input class="form__input-date" type="date" class="">
-        </div>
-        <div class="form__container">
-            <label class="form__label">Fecha de llegada</label>
-            <input class="form__input-date" type="date" class="">
-        </div>
-        <div class="form__container">
-            <label class="form__label">Huéspedes</label>
-            <select class="form__select" name="kjlkd">
-                <option value="1">Hotel</option>
-                <option value="2">Hostel</option>
-                <option value="3">Departamento</option>
-            </select>
-        </div>
-        <div class="form__container">
-            <label class="form__label">Habitaciones</label>
-            <select class="form__select" name="">
-                <option value="1">1 habitación</option>
-                <option value="2">2 habitaciones</option>
-                <option value="3">3 habitaciones</option>
-                <option value="4">+ de 4</option>
-            </select>
-        </div>
-        <button type="submit" class="button button_default">Buscar</button>
+    </footer>
+
 </body>
 
 </html>
