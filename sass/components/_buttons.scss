@@ -1,0 +1,53 @@
+// stylelint-disable selector-no-qualifying-type
+
+//
+// Base styles
+//
+
+@import "../abstracts/variables";
+
+.page-link-btn-lg {
+  display: flex;
+  font-family: $roboto;
+  font-weight: $medium;
+  color: $white;
+  text-align: center;
+  border-radius: 2em;
+  background-color: $nickel;
+  margin: 1em;
+
+  // white-space: $btn-white-space;
+  vertical-align: middle;
+  cursor: if(true, pointer, null);
+  user-select: none;
+  background-color: $nickel;
+  border: $light-gray solid transparent;
+
+}
+
+.page-link-btn-lg:hover {
+  color: $white;
+  text-decoration: none;
+  background-color: $platinum;
+  border-color: $nickel;
+
+}
+
+#botones-sociales{
+  margin-top: 5em;
+  margin-bottom: 5em;
+}
+
+.page-link {
+  color: $nickel;
+  text-decoration: none;
+  background-color: $white;
+  border-color: $light-gray;
+}
+
+.page-link:hover {
+  color: $white;
+  text-decoration: none;
+  background-color: $nickel;
+  border-color: $light-gray;
+}

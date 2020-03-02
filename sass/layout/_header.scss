@@ -1,0 +1,18 @@
+#navbarSupportedContent {
+    text-align: right;
+}
+
+
+.navbar-brand img {
+    width: 120px;
+    margin-left: 1.5em;
+}
+.navbar-dark .navbar-nav .nav-link{
+    color:$white;
+    font-size: $medium;
+    font-weight: $regular;
+    font-family: $roboto;
+}
+.nav-link:hover {
+    color:$Fuzzy-Wuzzy;
+}

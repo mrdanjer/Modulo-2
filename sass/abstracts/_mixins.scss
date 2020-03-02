@@ -1,0 +1,24 @@
+@import "../abstracts/variables";
+
+@mixin border-radius($radius) {
+    -webkit-border-radius: $radius;
+       -moz-border-radius: $radius;
+        -ms-border-radius: $radius;
+            border-radius: $radius;
+  }
+  
+  .box { @include border-radius(10px); }
+
+@mixin barra-navegacion ($fondo, $colorletra, $largo:100%){
+background-color: $fondo;
+color: $colorletra;
+width: $largo;
+}
+
+.navbar-dark{
+    @include barra-navegacion ($Eerie-black,$light-gray)
+}
+#fila-3-footer{
+    @include barra-navegacion($Eerie-black,$light-gray)
+}
+

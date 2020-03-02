@@ -1,0 +1,39 @@
+@import "../abstracts/variables";
+
+
+#imagen-primera img {
+    background-image: $main-img;
+    // background-position: center;
+    // background-repeat: no-repeat url("$main-img");
+    // background-size: 150px;
+    background-clip: border-box;
+}
+#imagen-primera h1 {
+    font-size: $xx-large;
+    color: $white;
+    font-weight: $black;
+    font-style: $italic;
+    font-family: $playfair;
+}
+#naomi img{
+    width: 10em;
+}
+#nombre-naomi h3 {
+    font-size: $x-large;
+    font-weight: $black;
+    font-style: $italic;
+    font-family: $playfair;
+}
+.main_title {
+    text-align: left;
+    font-family: $roboto;
+    font-size: $medium;
+    $largo: 100%;
+}
+#texto-principal{
+    margin-top: 4em;
+    margin-bottom: 4em;
+}
+.img-footer {
+    width: 150px;
+}

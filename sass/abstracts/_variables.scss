@@ -16,10 +16,8 @@ $Raisin-black: #222323;
 $nickel: #6c6e70;
 
 // Font Family
-$roboto: 'Roboto',
-serif;
-$playfair: 'Playfair-Display',
-serif;
+$roboto: 'Roboto';
+$playfair: 'Playfair-Display';
 
 // Typography
 
@@ -27,7 +25,6 @@ serif;
 $regular: 400;
 $light: 300;
 $black: 900;
-$black-italic: italic;
 
 // Font Sizes
 $xx-large: 70px;
@@ -37,4 +34,27 @@ $medium: 16px;
 $small: 14px;
 $x-small: 12px;
 
-//
+//Font-style
+$italic: italic;
+
+//background image
+$main-img: url("../../images/post-image.jpg");
+
+// Tamaños pantallas
+
+$screen-lg-min: 1080px;
+$screen-md-min: 992px;
+$screen-sm-min: 480px;
+
+ @media (max-width: $screen-sm-min) {
+     #texto-principal, #botones-sociales{
+    margin-right: 1em;
+    margin-left:1em; 
+    text-align: center;
+ }
+ }
+ @media (max-width: $screen-sm-min) {
+    .img-footer{
+    width: 50px;
+}
+}
