@@ -8,7 +8,8 @@ body {
     box-sizing: border-box;
     flex-direction: column-reverse;
 }
-html{
+
+html {
     scroll-behavior: smooth;
 }
 
@@ -17,7 +18,7 @@ footer {
 }
 
 #fila-2-footer,
-#fila-3-footer {
+.bg-dark {
     display: block;
 }
 
@@ -29,9 +30,10 @@ footer {
     padding-bottom: 1em;
 }
 
-#fila-1-footer img{
+#fila-1-footer img {
     border-radius: 9em;
 }
+
 #fila-2-footer {
     margin-top: 0;
     margin-bottom: 0;
@@ -40,29 +42,27 @@ footer {
     padding-bottom: 2em;
 }
 
-.pagination{
+.pagination {
     margin-bottom: 0em;
 }
 
-#fila-3-footer {
+.bg-dark {
     margin-top: 0;
     margin-bottom: 0;
-    padding-top: 3em;
-    padding-bottom: 3em;
     padding-right: 0em;
     padding-left: 0em;
 }
-
-
 
 #anterior {
     border-top-left-radius: 1em;
     border-bottom-left-radius: 1em;
 }
+
 #siguiente {
     border-top-right-radius: 1em;
     border-bottom-right-radius: 1em;
 }
-.container{
+
+.container {
     text-align: center;
-    }
+}
